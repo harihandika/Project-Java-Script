@@ -17,6 +17,7 @@ function showTime(){
     s = (s < 10) ? "0" + s : s;
 
     let time = h + ":" + m + ":" + s + " " + session;
+    // console.log(time);
     document.getElementById("MyClockDisplay").innerText = time;
     document.getElementById("MyClockDisplay").textContent = time;
 
